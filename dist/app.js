@@ -156,6 +156,7 @@ function renderLightbox(){
   $('#lightbox-caption').textContent=item.caption;
   $('#lightbox-count').textContent=`${String(lightboxIndex+1).padStart(2,'0')} / ${String(lightboxItems.length).padStart(2,'0')}`;
   $('#lightbox-prev').hidden=$('#lightbox-next').hidden=lightboxItems.length<2;
+  $('.lightbox-stage').classList.toggle('single-image',lightboxItems.length<2);
   $('.lightbox-image-wrap').classList.remove('zoomed');
   $('#zoom-button').setAttribute('aria-pressed','false');
   $('#zoom-button').textContent='Zoom +';
@@ -201,7 +202,7 @@ $('.dialog-close',lightbox).addEventListener('click',closeLightbox);
 storyDialog.addEventListener('click',event=>{if(event.target===storyDialog)closeStory()});
 lightbox.addEventListener('click',event=>{if(event.target===lightbox)closeLightbox()});
 storyDialog.addEventListener('close',()=>{$$('video',storyDialog).forEach(video=>video.pause());unlockPage();storyReturn?.focus({preventScroll:true})});
-lightbox.addEventListener('close',()=>{$('#lightbox-image').removeAttribute('src');unlockPage();lightboxReturn?.focus({preventScroll:true})});
+lightbox.addEventListener('close',()=>{if(!lightbox.open)$('#lightbox-image').removeAttribute('src');unlockPage();lightboxReturn?.focus({preventScroll:true})});
 $('#lightbox-prev').addEventListener('click',()=>advanceImage(-1));
 $('#lightbox-next').addEventListener('click',()=>advanceImage(1));
 $('#zoom-button').addEventListener('click',toggleZoom);
