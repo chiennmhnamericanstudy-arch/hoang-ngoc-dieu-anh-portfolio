@@ -32,7 +32,7 @@ Then open `http://localhost:5500`.
 
 ## Production
 
-There is no compilation step. The production artifact is the complete `dist/` directory. The GitHub repository is connected to Vercel with `dist` configured as the project root, so pushes to `main` publish the production website automatically.
+There is no compilation step. The production artifact is the complete `dist/` directory. Source is versioned on GitHub and the `dist` directory is deployed to the Vercel project `hoang-ngoc-dieu-anh-portfolio`.
 
 Production URL: `https://hoang-ngoc-dieu-anh-portfolio.vercel.app`
 
