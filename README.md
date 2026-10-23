@@ -34,6 +34,8 @@ Then open `http://localhost:5500`.
 
 There is no compilation step. The production artifact is the complete `dist/` directory. The GitHub repository is connected to Vercel with `dist` configured as the project root, so pushes to `main` publish the production website automatically.
 
+Production URL: `https://hoang-ngoc-dieu-anh-portfolio.vercel.app`
+
 Before changing domains, update the canonical, Open Graph, and Twitter image URLs in `dist/index.html`.
 
 ## Main files
