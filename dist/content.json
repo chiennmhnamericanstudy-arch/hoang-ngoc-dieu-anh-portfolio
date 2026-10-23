@@ -1,0 +1,368 @@
+{
+  "about": {
+    "title": "The person behind the projects.",
+    "meta": "Phu Nhuan High School · Class of 2027 · Ho Chi Minh City, Vietnam",
+    "overview": "I am Hoang Ngoc Dieu Anh, a high school student who enjoys exploring ideas from more than one perspective: through numbers, through people, and through creativity.",
+    "sections": [
+      {
+        "title": "Curiosity, with a human perspective",
+        "text": "My interest in economics and technology has led me to research how artificial intelligence is changing the way people work. I am especially curious about the human side of innovation: what helps employees adapt, how organizations respond, and how evidence can inform better decisions."
+      },
+      {
+        "title": "Putting ideas into practice",
+        "text": "As the founder of Wish Bag and president of Community of Innovators, I have worked on initiatives that combine sustainability, communication, and service. These experiences have taught me that organizing a project is not only about planning an event or creating a product; it is also about listening, collaborating, and following through."
+      },
+      {
+        "title": "Room for imagination",
+        "text": "Creative expression matters to me, too. Latin dance, drawing, and violin offer different ways to think, practice, and communicate. Together with my academic interests, they remind me that meaningful work can involve both careful analysis and imagination."
+      }
+    ],
+    "gallery": [
+      "echoes-3",
+      "wish-36",
+      "dance-0"
+    ]
+  },
+  "research": [
+    {
+      "id": "research-2026",
+      "title": "The Impact of Artificial Intelligence Applications on Service Workers’ Intentions to Adapt Their Careers in Vietnam",
+      "short_title": "AI & career adaptation",
+      "meta": "Co-Author · March–September 2026",
+      "mentor": "Mai Thi Dung · University of Labour and Social Affairs",
+      "overview": "How do service-sector employees respond to AI in the workplace? Using the S-O-R framework and a dataset of 302 survey responses, this study explores the relationship between workplace AI applications, employees’ adaptive mindsets, and their intentions to adapt their careers in Vietnam. Statistical analysis was conducted in SmartPLS.",
+      "sections": [
+        {
+          "title": "Research question",
+          "text": "How do workplace AI applications and employees’ adaptive mindsets relate to intentions to adapt their careers in Vietnam’s service sector?"
+        },
+        {
+          "title": "Methodology & tools",
+          "text": "S-O-R framework; survey administration; a research dataset of 302 responses; structural equation modeling in SmartPLS."
+        },
+        {
+          "title": "My contributions",
+          "items": [
+            "Supported survey administration and collection of responses from service-sector participants.",
+            "Used SmartPLS under mentor guidance to support statistical analysis and interpretation of relationships within the model.",
+            "Helped synthesize findings on employee attitudes, confidence, and career adaptation."
+          ]
+        },
+        {
+          "title": "Findings & implications",
+          "text": "The team’s study connects workplace AI applications and adaptive mindsets with career-adaptation intentions. It highlights the importance of worker attitudes and confidence alongside technology adoption."
+        }
+      ],
+      "paper_url": null,
+      "source_paper_url": "https://sciencejournal.eu/index.php/studies-in-science-of-science/article/view/1431",
+      "gallery": []
+    },
+    {
+      "id": "research-2025",
+      "title": "Shaping the Future of Work: How Artificial Intelligence Transforms Managerial Roles and Career Pathways",
+      "short_title": "AI & managerial transformation",
+      "meta": "Co-Author · April–August 2025",
+      "mentor": "Vuong Thi Huyen Trang · Ha Noi Agricultural Genetics Institute",
+      "overview": "This mixed-methods study examines how AI changes managerial productivity, leadership responsibilities, and career pathways. Grounded in resource-based and dynamic-capabilities perspectives, it connects qualitative insights from CEO and HR interviews with quantitative survey analysis to consider how technology reshapes the skills and responsibilities expected of managers.",
+      "sections": [
+        {
+          "title": "Research objectives",
+          "text": "Explore AI’s disruptive and enabling effects on managerial work, organizational structures, productivity, and emerging career pathways."
+        },
+        {
+          "title": "Methodology & tools",
+          "text": "Sequential mixed methods, combining CEO and HR interview insights with survey evidence. Partial Least Squares Structural Equation Modeling (PLS-SEM) was used to investigate relationships in the quantitative data."
+        },
+        {
+          "title": "My contributions",
+          "items": [
+            "Contributed to a sequential mixed-methods research design, connecting interviews with quantitative survey evidence.",
+            "Applied PLS-SEM to investigate relationships in the survey data.",
+            "Synthesized findings about automation, managerial workflows, and interdisciplinary career pathways."
+          ]
+        },
+        {
+          "title": "Findings & implications",
+          "text": "The team’s findings describe how AI can support productivity, expand strategic leadership responsibilities, and create interdisciplinary business roles. This work encouraged me to consider organizational change together with the people and skills it involves."
+        }
+      ],
+      "paper_url": "https://ijeais.org/wp-content/uploads/2025/9/IJAMSR250916.pdf",
+      "source_paper_url": "https://ijeais.org/wp-content/uploads/2025/9/IJAMSR250916.pdf",
+      "gallery": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "wish-bag",
+      "title": "Wish Bag",
+      "meta": "Founder · May 2024–Present",
+      "category": "Sustainable Entrepreneurship",
+      "cover": "wish-0",
+      "preview": "Giving leftover fabric a second life through reusable tote bags inspired by Vietnamese culture.",
+      "overview": "I founded Wish Bag as a student-led nonprofit initiative to explore a simple question: how can everyday products create value without adding unnecessary waste? The project develops reusable tote bags from recycled fabric scraps while incorporating traditional Vietnamese-inspired design elements.",
+      "sections": [
+        {
+          "title": "Purpose & background",
+          "text": "Promote more sustainable consumption, draw attention to textile waste, and connect everyday design with Vietnamese cultural identity."
+        },
+        {
+          "title": "My role & responsibilities",
+          "items": [
+            "Founded and helped lead the initiative from product concept to communication and community outreach.",
+            "Promoted awareness of textile waste, reusable products, and cultural identity through tote bag designs.",
+            "Allocated project proceeds toward charitable activities and essential supplies for children."
+          ]
+        },
+        {
+          "title": "Outcomes & community impact",
+          "text": "Wish Bag directs profits toward gifts, food, and activities for children in highland and rural communities. The initiative connects reusable products with practical community support."
+        }
+      ],
+      "link": "https://www.facebook.com/profile.php?id=61573068122998",
+      "gallery": [
+        "wish-0",
+        "wish-36",
+        "wish-48",
+        "wish-20",
+        "wish-32",
+        "wish-8"
+      ]
+    },
+    {
+      "id": "innovators",
+      "title": "Community of Innovators",
+      "meta": "President · May 2025–Present",
+      "category": "Community Leadership",
+      "cover": null,
+      "preview": "Connecting sustainability-focused communication with collaborative, student-led service.",
+      "overview": "As president of Community of Innovators, I work with fellow students to turn shared concerns into organized initiatives. I have coordinated communications, created visual content and promotional materials, and supported partnerships for charitable outreach.",
+      "sections": [
+        {
+          "title": "Purpose & background",
+          "text": "Bring sustainability-focused communication and opportunities to support communities into practical action through student collaboration."
+        },
+        {
+          "title": "My role & responsibilities",
+          "items": [
+            "Led social media and communication planning for the organization.",
+            "Designed posters, flyers, and campaign visuals.",
+            "Coordinated outreach activities with charitable partners."
+          ]
+        },
+        {
+          "title": "Key activities & shared impact",
+          "text": "Alongside club members, I participated in preparing ingredients and distributing more than 1,000 free meals at Cho Ray Hospital. This was a collective effort by the group and its volunteers."
+        }
+      ],
+      "link": "https://www.facebook.com/profile.php?id=61577047683415",
+      "gallery": []
+    },
+    {
+      "id": "echoes",
+      "title": "Echoes of the Highlands",
+      "meta": "Organizer · September 2025",
+      "category": "Fundraising & Community Outreach",
+      "cover": "echoes-0",
+      "preview": "A Mid-Autumn initiative bringing student fundraising, celebration, and family support together in Binh Phuoc.",
+      "overview": "Echoes of the Highlands combined fundraising with a community celebration. Our team organized a campaign selling custom mooncakes and used the proceeds to support outreach activities. We then helped run a Mid-Autumn event at a primary school in Binh Phuoc.",
+      "sections": [
+        {
+          "title": "Purpose & background",
+          "text": "Connect student entrepreneurship with a school celebration and practical support for students and families."
+        },
+        {
+          "title": "My role & key activities",
+          "items": [
+            "Helped organize a mooncake-based fundraising campaign.",
+            "Coordinated interactive food and beverage booths and performances at a primary school.",
+            "Supported preparation and distribution of gift packages for participating families and students."
+          ]
+        },
+        {
+          "title": "Outcomes & community impact",
+          "text": "The team brought together fundraising proceeds, festival activities, and care packages for students and families in Binh Phuoc."
+        }
+      ],
+      "link": "https://www.facebook.com/profile.php?id=61579992615610",
+      "gallery": [
+        "echoes-0",
+        "echoes-3",
+        "echoes-17",
+        "echoes-11",
+        "echoes-12",
+        "echoes-8"
+      ]
+    },
+    {
+      "id": "stream",
+      "title": "The Stream of Love",
+      "meta": "Organizer · June 2025",
+      "category": "Learning & Community Service",
+      "cover": "stream-3",
+      "preview": "Exploring agriculture and production, then joining a community outreach visit in Tien Giang.",
+      "overview": "The Stream of Love brought together exploration and service. In Tien Giang, I joined visits to the Southern Fruit Research Institute and a chocolate production facility to learn about cultivation, production workflows, and quality processes.",
+      "sections": [
+        {
+          "title": "Purpose & background",
+          "text": "Combine educational visits with an outreach activity supporting children and families facing financial difficulty."
+        },
+        {
+          "title": "My role & key activities",
+          "items": [
+            "Participated in educational visits focused on plant cultivation and production.",
+            "Observed commercial chocolate processing and quality-related workflows.",
+            "Helped organize and carry out a community gift-distribution activity at a local temple."
+          ]
+        },
+        {
+          "title": "Outcomes & community impact",
+          "text": "The visit connected learning about agriculture and manufacturing with distributing essential gifts and supplies to children and families in need."
+        }
+      ],
+      "gallery": [
+        "stream-3",
+        "stream-0",
+        "stream-1",
+        "stream-4"
+      ],
+      "video_url": "assets/stream-film.mp4",
+      "video_poster": "assets/stream-poster.webp"
+    }
+  ],
+  "activities": [
+    {
+      "id": "flashmob",
+      "title": "School Flashmob Contest",
+      "meta": "Team Leader · February–March 2025",
+      "overview": "I led my class team in a school-wide flashmob competition at Phu Nhuan High School.",
+      "sections": [
+        {
+          "title": "My role & key activities",
+          "items": [
+            "Choreographed the dance routine and guided classmates through rehearsals.",
+            "Coordinated outfits to support performance unity and stage presence.",
+            "Encouraged classmates to build confidence and work together."
+          ]
+        }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "food-festival",
+      "title": "Phu Nhuan Food Festival",
+      "meta": "Team Leader",
+      "overview": "I helped plan event activities, coordinate classmates, and track expenditures to support smooth festival operations.",
+      "sections": [
+        {
+          "title": "My role & key activities",
+          "items": [
+            "Planned activity schedules for school food festival events.",
+            "Coordinated classmates according to approved execution plans.",
+            "Managed and reviewed event expenditures to support the festival budget."
+          ]
+        }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "hospital",
+      "title": "Service at Cho Ray Hospital",
+      "meta": "Coordinator",
+      "overview": "I assisted patients and visitors with directions, hospital registration tasks, and basic app-based check-in procedures.",
+      "sections": [
+        {
+          "title": "My role & key activities",
+          "items": [
+            "Helped patients and visitors find departments and understand hospital procedures.",
+            "Assisted with installing apps for check-in and administrative workflows.",
+            "Supported basic registration records and essential paperwork."
+          ]
+        }
+      ],
+      "gallery": []
+    }
+  ],
+  "experience": {
+    "id": "galaxy",
+    "title": "Galaxy Technology Service Joint Stock Company",
+    "meta": "Business Analytics Intern",
+    "overview": "At Galaxy Technology Service, I gained exposure to how social media and engagement data can be organized and translated into useful business insights. My work involved documenting performance metrics, practicing dashboard design, and consolidating information into analytical reports.",
+    "sections": [
+      {
+        "title": "Responsibilities",
+        "items": [
+          "Collected and documented social media performance and user-engagement metrics to identify emerging patterns.",
+          "Examined engagement and market trends.",
+          "Combined information from multiple data sources into concise analytical reporting."
+        ]
+      },
+      {
+        "title": "Tools & analytical skills",
+        "text": "Practiced dashboard-style data visualization and business analytics workflows. The resume identifies Power BI, Tableau, and Excel as examples of analytics tools used in this learning context."
+      },
+      {
+        "title": "Professional learning",
+        "text": "The internship connected gathering data, presenting it clearly, and organizing it into business reporting. It added a practical perspective to my interest in evidence-based decisions."
+      }
+    ],
+    "gallery": []
+  },
+  "honors": [
+    {
+      "year": 2026,
+      "award_title": "Gold Award",
+      "competition": "Cambridge Economics and Finance Competition",
+      "round": "Qualifier Round",
+      "certificate_image_url": null
+    },
+    {
+      "year": 2026,
+      "award_title": "Bronze Medal",
+      "competition": "International Economics Olympiad",
+      "round": "Asia Round",
+      "certificate_image_url": "assets/honors-0.webp"
+    },
+    {
+      "year": 2026,
+      "award_title": "Global Insight Leader Award",
+      "competition": "International Economics Olympiad",
+      "round": "Senior Division",
+      "certificate_image_url": "assets/honors-1.webp"
+    },
+    {
+      "year": 2026,
+      "award_title": "Global Policy Advocate Award",
+      "competition": "International Economics Olympiad",
+      "round": "Senior Division",
+      "certificate_image_url": "assets/honors-2.webp"
+    },
+    {
+      "year": 2026,
+      "award_title": "Hedge Fund Award",
+      "competition": "International Economics Olympiad",
+      "round": "Senior Division",
+      "certificate_image_url": "assets/honors-3.webp"
+    },
+    {
+      "year": 2024,
+      "award_title": "Silver Award",
+      "competition": "Asian Science and Mathematics Olympiad (ASMO)",
+      "round": "State Level",
+      "certificate_image_url": "assets/honors-4.webp"
+    },
+    {
+      "year": 2023,
+      "award_title": "Bronze Medal",
+      "competition": "Asian Science and Mathematics Olympiad (ASMO)",
+      "round": "",
+      "certificate_image_url": null
+    },
+    {
+      "year": 2023,
+      "award_title": "Gold Medal",
+      "competition": "National Dancesport Championship",
+      "round": "Performing Arts & Sports",
+      "certificate_image_url": "assets/honors-14.webp"
+    }
+  ]
+}
