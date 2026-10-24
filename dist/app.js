@@ -231,7 +231,7 @@ function observeReveals(root=document){
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
   if(reduced){$$('.reveal',root).forEach(element=>element.classList.add('shown'));return}
   document.body.classList.add('motion-ready');
-  if(!revealObserver)revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('shown');revealObserver.unobserve(entry.target)}}),{threshold:.08,rootMargin:'0px 0px -4%'});
+  if(!revealObserver)revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('shown');revealObserver.unobserve(entry.target)}}),{threshold:.08,rootMargin:'0px 0px 12% 0px'});
   $$('.reveal',root).forEach(element=>revealObserver.observe(element));
 }
 
