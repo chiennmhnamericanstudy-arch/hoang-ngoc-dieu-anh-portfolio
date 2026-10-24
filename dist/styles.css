@@ -107,3 +107,29 @@ h1,h2,h3,h4,strong{font-weight:600}
 .contact-signoff{width:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1rem,3vw,3rem);align-items:end;font-size:clamp(3rem,8.2vw,8.25rem);line-height:.88;letter-spacing:-.045em;white-space:normal}
 .contact-signoff span,.contact-signoff em{min-width:0;overflow-wrap:anywhere}.contact-signoff em{text-align:right}
 @media(max-width:560px){.contact-signoff{grid-template-columns:1fr;gap:.1em;font-size:clamp(3rem,14vw,4.5rem);line-height:.94}.contact-signoff em{text-align:left}.lightbox-stage.single-image{padding:0 .75rem}}
+
+/* Larger hero butterflies */
+.butterfly{width:3.2rem;height:2.25rem}
+.butterfly::before,.butterfly::after{width:1.65rem;height:2.15rem}
+.butterfly i{top:.35rem;width:3px;height:1.55rem}
+.butterfly-one{left:6%;top:26%}.butterfly-two{left:28%;top:3%}.butterfly-three{right:33%;top:34%}.butterfly-four{right:10%;top:5%}.butterfly-five{right:2%;top:58%}
+
+/* Smooth story and lightbox entrance */
+.story-dialog[open]{animation:dialog-rise .48s cubic-bezier(.2,.78,.24,1) both}
+.lightbox[open]{animation:dialog-fade .3s ease-out both}
+.story-dialog[open]::backdrop,.lightbox[open]::backdrop{animation:backdrop-in .38s ease-out both}
+.story-dialog[open] .story-hero{animation:content-rise .58s .08s cubic-bezier(.2,.78,.24,1) both}
+.story-dialog[open] .story-main{animation:content-rise .58s .16s cubic-bezier(.2,.78,.24,1) both}
+.story-dialog[open] .story-gallery-wrap{animation:content-rise .58s .22s cubic-bezier(.2,.78,.24,1) both}
+@keyframes dialog-rise{from{opacity:0;transform:translateY(2.25rem) scale(.975)}to{opacity:1;transform:none}}
+@keyframes dialog-fade{from{opacity:0;transform:scale(.99)}to{opacity:1;transform:none}}
+@keyframes backdrop-in{from{background:rgba(6,13,10,0);backdrop-filter:blur(0)}to{background:rgba(6,13,10,.82);backdrop-filter:blur(6px)}}
+@keyframes content-rise{from{opacity:0;transform:translateY(1.25rem)}to{opacity:1;transform:none}}
+
+/* Certificate view always fits inside the available viewport */
+.lightbox-stage.single-image{overflow:hidden;padding:clamp(.5rem,2vw,1.5rem)}
+.lightbox-stage.single-image .lightbox-image-wrap{overflow:hidden;height:100%;place-items:center}
+.lightbox-stage.single-image .lightbox-image-wrap img{display:block;width:auto;height:auto;max-width:calc(100vw - 3rem);max-height:calc(100dvh - 12rem);object-fit:contain;object-position:center}
+
+@media(max-width:820px){.butterfly{width:2.45rem;height:1.75rem}.butterfly::before,.butterfly::after{width:1.28rem;height:1.7rem}.butterfly i{height:1.2rem}.story-dialog[open]{animation-duration:.4s}}
+@media(prefers-reduced-motion:reduce){.story-dialog[open],.lightbox[open],.story-dialog[open]::backdrop,.lightbox[open]::backdrop,.story-dialog[open] .story-hero,.story-dialog[open] .story-main,.story-dialog[open] .story-gallery-wrap{animation:none}}

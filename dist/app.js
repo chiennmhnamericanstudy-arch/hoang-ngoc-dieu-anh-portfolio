@@ -155,8 +155,10 @@ function renderLightbox(){
   $('#lightbox-image').alt=item.caption;
   $('#lightbox-caption').textContent=item.caption;
   $('#lightbox-count').textContent=`${String(lightboxIndex+1).padStart(2,'0')} / ${String(lightboxItems.length).padStart(2,'0')}`;
-  $('#lightbox-prev').hidden=$('#lightbox-next').hidden=lightboxItems.length<2;
-  $('.lightbox-stage').classList.toggle('single-image',lightboxItems.length<2);
+  const singleImage=lightboxItems.length<2;
+  $('#lightbox-prev').hidden=$('#lightbox-next').hidden=singleImage;
+  $('#zoom-button').hidden=singleImage;
+  $('.lightbox-stage').classList.toggle('single-image',singleImage);
   $('.lightbox-image-wrap').classList.remove('zoomed');
   $('#zoom-button').setAttribute('aria-pressed','false');
   $('#zoom-button').textContent='Zoom +';
