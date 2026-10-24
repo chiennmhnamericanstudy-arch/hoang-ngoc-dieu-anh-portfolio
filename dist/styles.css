@@ -136,3 +136,8 @@ h1,h2,h3,h4,strong{font-weight:600}
 
 /* Keep the detail introduction readable at medium widths */
 @media(max-width:1100px){.story-main{grid-template-columns:1fr;gap:clamp(1.5rem,4vw,3rem)}.story-overview{font-size:clamp(1.35rem,2.35vw,2.2rem);max-width:34ch}}
+
+/* Keep the story introduction above the detail content at every width */
+.story-main{grid-template-columns:1fr;gap:clamp(2.5rem,5vw,5rem)}
+.story-overview{max-width:none}
+@media(max-width:1100px){.story-main{gap:clamp(1.5rem,4vw,3rem)}.story-overview{max-width:none}}
